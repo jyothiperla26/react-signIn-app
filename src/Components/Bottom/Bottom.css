@@ -1,0 +1,21 @@
+.alignButtons{
+    text-align: right;
+}
+
+.cancel-button{
+    height:40px;
+    width:100px;
+    padding:10px;
+    font-weight: bold;
+    margin-right:10px;
+}
+
+.create-user-button{
+    height:40px;
+    width:100px;
+    padding:10px;
+    font-weight: bold;
+    background-color: black;
+    color:white;
+    margin-right:10px;
+}
