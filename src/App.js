@@ -5,7 +5,7 @@ import { Bottom } from './Components/Bottom/Bottom';
 
 function App() {
   return (
-    <div className="bgContainer">
+    <div className="bg-container">
       <div>
         <Header></Header>
         <InputContainer></InputContainer>
