@@ -26,14 +26,25 @@ test("renders form lastname", () => {
   expect(name).toBeInTheDocument();
 });
 
-test("renders form Role preference", () => {
+test("renders form email", () => {
   render(<App/>);
   const name = screen.getByText("Email");
   expect(name).toBeInTheDocument();
 });
 
-test("renders form Role preference", () => {
+test("renders form phone number", () => {
     render(<App/>);
     const name = screen.getByText("Phone Number");
     expect(name).toBeInTheDocument();
+});
+
+test("renders form cancel button", () => {
+  render(<App/>);
+  const name = screen.getByText("Cancel");
+  expect(name).toBeInTheDocument();
+});
+test("renders form Create User button", () => {
+  render(<App/>);
+  const name = screen.getByText("Create User");
+  expect(name).toBeInTheDocument();
 });
