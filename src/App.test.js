@@ -1,7 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-
 test("Sign-in User", () => {
   render(<App/>);
   const name = screen.getByText("Sign-in User");
