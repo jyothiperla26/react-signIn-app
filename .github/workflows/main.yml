@@ -18,6 +18,9 @@ jobs:
         with:
           node-version: 14
 
+      - run: npm install -g bats
+      - run: bats -v
+
       - name: Install Dependencies
         run: npm install
 
