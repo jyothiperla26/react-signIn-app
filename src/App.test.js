@@ -1,13 +1,13 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test("Sign-in User", () => {
+test("Should render the text 'Sign-in User' ", () => {
   render(<App/>);
   const name = screen.getByText("Sign-in User");
   expect(name).toBeInTheDocument();
 });
 
-test("Please fill the below details", () => {
+test("Should render the text 'Please fill the below details' ", () => {
   render(<App/>);
   const name = screen.getByText("Please fill the below details");
   expect(name).toBeInTheDocument();
