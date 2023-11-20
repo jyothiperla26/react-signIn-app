@@ -11,6 +11,11 @@ pipeline {
                 sh 'npm install' 
             }
         }
+        stage('Install dependencies') { 
+            steps {
+                sh 'npm run build' 
+            }
+        }
         stage('Build the App') {
             steps {
                 sh 'npm start'
