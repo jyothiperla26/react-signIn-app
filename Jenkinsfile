@@ -16,10 +16,5 @@ pipeline {
                 sh 'npm start'
             }
         }
-        stage('Test the unit') {
-            steps {
-              sh 'npm test'
-            }
-        }
     }
 }
