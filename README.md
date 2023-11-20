@@ -9,7 +9,7 @@
 
 # Usage
 * Run the given command in your terminal to create a react environment: `npx create-react-app app-name(write your-app-name here)`
-* Run the given command to clone this project on your local computer: `git clone https://github.com/jyothiperla26/react-signIn-app.git`
+* Run the given command to clone this project on your local computer: `git clone --branch feature/jenkins-test https://github.com/jyothiperla26/react-signIn-app.git`
 * Run the given command in the terminal to install all the required dependencies: `npm install`
 * Run the given command in the terminal to execute the code: `npm start`
 
