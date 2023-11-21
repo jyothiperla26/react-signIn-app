@@ -21,12 +21,5 @@ pipeline {
                 sh 'npm test'
             }
         }
-        stage('Run the app') {
-            steps {
-                sh 'npm start'
-                input message: 'Finished using the web site? (Click "Proceed" to continue)' 
-                sh './jenkins/scripts/kill.sh'
-            }
-        }
     }
 }
