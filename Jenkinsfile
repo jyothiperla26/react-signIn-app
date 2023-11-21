@@ -16,14 +16,14 @@ pipeline {
                 sh 'npm run build' 
             }
         }
-        stage('Build the App') {
-            steps {
-                sh 'npm start'
-            }
-        }
         stage('Test') {
             steps {
                 sh 'npm test'
+            }
+        }
+        stage('Build the App') {
+            steps {
+                sh 'npm start'
             }
         }
     }
