@@ -1,6 +1,6 @@
 FROM node:18-alpine
 WORKDIR /index
 COPY . .
-RUN npm install && npm run build
+RUN yarn install --production
 CMD ["npm", "start"]
 EXPOSE 3000
